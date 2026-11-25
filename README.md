@@ -85,37 +85,30 @@ Testing
 
 The API endpoints were tested using PowerShell HTTP requests. A Postman collection containing all five API requests is also included for reference.
 
-Screenshots
+## Screenshots
 
-API Running
+### API Running
+![API Running](./Screenshots/api-running.png)
 
-"API Running" (Screenshots/api-running.png)
+### Create Task
+![Create Task](./Screenshots/post-create.png)
 
-Create Task
+### Get All Tasks
+![Get All Tasks](./Screenshots/get-all-tasks.png)
 
-"Create Task" (Screenshots/POST-create.png)
+### Get Task By ID
+![Get Task By ID](./Screenshots/get-task-by-id.png)
 
-Get All Tasks
+### Update Task
+![Update Task](./Screenshots/put-update.png)
 
-"Get All Tasks" (Screenshots/get-all-tasks.png)
+### Delete Task
+![Delete Task](./Screenshots/delete-task.png)
 
-Get Task By ID
+### Postman Collection
+![Postman Collection](./Screenshots/postman-collection.png)
 
-"Get Task By ID" (Screenshots/get-task-by-id.png)
 
-Update Task
-
-"Update Task" (Screenshots/put-update.png)
-
-Delete Task
-
-"Delete Task" (Screenshots/delete-task.png)
-
-Postman Collection
-
-"Postman Collection" (Screenshots/postman-collection.png)
-
-Storage
 
 Tasks are stored temporarily in an in-memory JavaScript array. Data is lost when the server restarts. This project does not currently use a database.
 
