@@ -91,7 +91,7 @@ The API endpoints were tested using PowerShell HTTP requests. A Postman collecti
 ![API Running](./Screenshots/api-running.png)
 
 ### Create Task
-![Create Task](./Screenshots/post-create.png)
+![Create Task](./Screenshots/post-task.png)
 
 ### Get All Tasks
 ![Get All Tasks](./Screenshots/get-all-tasks.png)
